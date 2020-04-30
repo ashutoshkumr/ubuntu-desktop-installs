@@ -24,10 +24,10 @@ enable_i686() {
 	# To build and run 32-bit apps
 	dpkg --add-architecture i386            \
 	&& apt-get update                       \
-	&& apt-get -y install multiarch-support \
-	libc6:i386                              \
-	libncurses5:i386                        \
-	libstdc++6:i386
+	&& apt-get install -y                   \
+	  libc6:i386                            \
+	  libncurses5:i386                      \
+	  libstdc++6:i386
 }
 
 get_cmake() {
