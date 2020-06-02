@@ -13,6 +13,7 @@ install_deps() {
     git                                 \
     curl                                \
     vim                                 \
+    openssh-server			\
     cppcheck                            \
     python3-dev                         \
     libtool                             \
