@@ -14,6 +14,9 @@ install_deps() {
     curl                                \
     vim                                 \
     openssh-server			\
+    openconnect				\
+    network-manager-openconnect		\
+    network-manager-openconnect-gnome	\
     cppcheck                            \
     python3-dev                         \
     libtool                             \
