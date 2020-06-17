@@ -17,6 +17,7 @@ install_deps() {
     openconnect				\
     network-manager-openconnect		\
     network-manager-openconnect-gnome	\
+    nfs-common				\
     cppcheck                            \
     python3-dev                         \
     libtool                             \
