@@ -1,4 +1,5 @@
 - Login to Firefox (and install ABP)
+  - about:config => security.enterprise_roots.enabled = true
 - From Ubuntu Software, install
   - Gnome Tweaks
   - VSCode
